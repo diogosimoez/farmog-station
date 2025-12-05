@@ -1,0 +1,14 @@
+{
+  "model": "ResNet50V2",
+  "input_size": 224,
+  "num_classes": 10,
+  "training_samples": 18345,
+  "validation_samples": 4585,
+  "final_val_accuracy": 0.9873500466346741,
+  "final_val_top3_accuracy": 0.9995638132095337,
+  "final_val_loss": 0.04199061170220375,
+  "best_val_accuracy": 0.9873500466346741,
+  "best_epoch": 15,
+  "total_epochs": 15,
+  "batch_size": 32
+}

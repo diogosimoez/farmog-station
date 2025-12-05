@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Virtual environments
+env/
+venv/
+ENV/
+farmog/
+
+# Large Data Files - DO NOT COMMIT
+data/raw/**/*
+!data/raw/.gitkeep
+
+# Model files - Too large for GitHub
+*.h5
+*.keras
+*.tflite
+*.pkl
+*.joblib
+*.weights
+
+# Keep only essential model files
+!notebooks/models/class_names.json
+!notebooks/models/resnet50v2_metadata.json
+!notebooks/models/efficientnet_metadata.json
+!notebooks/models/training_metadata.json
+!notebooks/models/evaluation_report.json
+
+# Backup files
+*_BACKUP.*
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp
+~$*
+
+# Logs
+*.log
+
+# Worktree
+.claude/

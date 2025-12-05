@@ -1,0 +1,71 @@
+{
+  "model": "ResNet50V2",
+  "accuracy": 0.9873500545256271,
+  "macro_f1": 0.9873524815725633,
+  "weighted_f1": 0.9873923555047347,
+  "total_samples": 4585,
+  "correct": 4527,
+  "incorrect": 58,
+  "per_class_metrics": [
+    {
+      "Disease": "Bacterial spot",
+      "Precision": 0.9976190476190476,
+      "Recall": 0.9858823529411764,
+      "F1-Score": 0.991715976331361
+    },
+    {
+      "Disease": "Early blight",
+      "Precision": 0.9956989247311828,
+      "Recall": 0.9645833333333333,
+      "F1-Score": 0.9798941798941799
+    },
+    {
+      "Disease": "Late blight",
+      "Precision": 0.9870689655172413,
+      "Recall": 0.9892008639308856,
+      "F1-Score": 0.9881337648327939
+    },
+    {
+      "Disease": "Leaf Mold",
+      "Precision": 0.9957264957264957,
+      "Recall": 0.9914893617021276,
+      "F1-Score": 0.9936034115138592
+    },
+    {
+      "Disease": "Septoria leaf spot",
+      "Precision": 0.9862385321100917,
+      "Recall": 0.9862385321100917,
+      "F1-Score": 0.9862385321100917
+    },
+    {
+      "Disease": "Spider mites Two-spotted spider mite",
+      "Precision": 0.9751131221719457,
+      "Recall": 0.9908045977011494,
+      "F1-Score": 0.9828962371721779
+    },
+    {
+      "Disease": "Target Spot",
+      "Precision": 0.9475890985324947,
+      "Recall": 0.9890590809628009,
+      "F1-Score": 0.9678800856531049
+    },
+    {
+      "Disease": "Tomato Yellow Leaf Curl Virus",
+      "Precision": 0.9938650306748467,
+      "Recall": 0.9918367346938776,
+      "F1-Score": 0.992849846782431
+    },
+    {
+      "Disease": "Tomato mosaic virus",
+      "Precision": 1.0,
+      "Recall": 0.9910714285714286,
+      "F1-Score": 0.9955156950672646
+    },
+    {
+      "Disease": "healthy",
+      "Precision": 0.9958333333333333,
+      "Recall": 0.9937629937629938,
+      "F1-Score": 0.9947970863683663
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "model": "MobileNetV2",
+  "input_size": 224,
+  "num_classes": 10,
+  "training_samples": 18345,
+  "validation_samples": 4585,
+  "final_val_accuracy": 0.888985812664032,
+  "final_val_loss": 0.33738288283348083,
+  "best_val_accuracy": 0.888985812664032,
+  "best_epoch": 19,
+  "total_epochs": 20,
+  "batch_size": 32
+}
